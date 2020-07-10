@@ -16,7 +16,7 @@ public class RandomRule_ZY extends AbstractLoadBalancerRule {
             if (lb == null) {
                 return null;
             }
-            Server server = null;
+            Server server =   null;
 
             while (server == null) {
                 if (Thread.interrupted()) {
